@@ -1,0 +1,15 @@
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\bin\Debug\net8.0\Task_004.exe
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\bin\Debug\net8.0\Task_004.deps.json
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\bin\Debug\net8.0\Task_004.runtimeconfig.json
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\bin\Debug\net8.0\Task_004.dll
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\bin\Debug\net8.0\Task_004.pdb
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.AssemblyInfoInputs.cache
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.AssemblyInfo.cs
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.csproj.CoreCompileInputs.cache
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.sourcelink.json
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.dll
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\refint\Task_004.dll
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.pdb
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\Task_004.genruntimeconfig.cache
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_004\obj\Debug\net8.0\ref\Task_004.dll
