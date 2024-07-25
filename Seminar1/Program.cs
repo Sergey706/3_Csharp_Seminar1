@@ -36,6 +36,7 @@ else if (firstValue < secondValue) System.Console.Write($"max={secondValue}, min
     else System.Console.Write($"числа {firstValue} и {secondValue} равны");*/
 
 //Задача 2
+/*
 int firstValue = 25;
 int secondValue = 15;
 int thirdValue = 35;
@@ -48,4 +49,13 @@ int thirdValue = 35;
     {
         if (secondValue >= firstValue && secondValue >= thirdValue) System.Console.Write($" => {secondValue}");
          else System.Console.Write($" => {thirdValue}");
+    }*/
+
+//Задача 3
+int number = 24;
+    if (number % 2 == 0)
+    {
+        System.Console.WriteLine($"четное");
     }
+    else System.Console.WriteLine($"нечетное");
+
