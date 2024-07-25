@@ -52,10 +52,21 @@ int thirdValue = 35;
     }*/
 
 //Задача 3
-int number = 24;
+/*int number = 24;
     if (number % 2 == 0)
     {
         System.Console.WriteLine($"четное");
     }
     else System.Console.WriteLine($"нечетное");
+*/
 
+//Задача 4
+
+int number = 24;
+        for (int i = 1; i <= number; i++)
+        {
+            if (i % 2 == 0)
+            {
+                System.Console.Write($"{i} ");
+            }
+        }
