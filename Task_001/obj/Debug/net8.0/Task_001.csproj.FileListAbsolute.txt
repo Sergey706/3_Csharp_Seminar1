@@ -12,3 +12,4 @@ C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1
 C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_001\obj\Debug\net8.0\Task_001.pdb
 C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_001\obj\Debug\net8.0\Task_001.genruntimeconfig.cache
 C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_001\obj\Debug\net8.0\ref\Task_001.dll
+C:\GB\3 C_sharp\Практика\ДЗ к семинарам\ДЗ семинар1\Tasks\Task_001\obj\Debug\net8.0\Task_001.sourcelink.json
