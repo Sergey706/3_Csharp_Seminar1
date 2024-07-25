@@ -12,3 +12,4 @@ C:\GB\3 C_sharp\Практика\Семинары\Seminar1\obj\Debug\net8.0\refi
 C:\GB\3 C_sharp\Практика\Семинары\Seminar1\obj\Debug\net8.0\Seminar1.pdb
 C:\GB\3 C_sharp\Практика\Семинары\Seminar1\obj\Debug\net8.0\Seminar1.genruntimeconfig.cache
 C:\GB\3 C_sharp\Практика\Семинары\Seminar1\obj\Debug\net8.0\ref\Seminar1.dll
+C:\GB\3 C_sharp\Практика\Семинары\Seminar1\obj\Debug\net8.0\Seminar1.sourcelink.json
