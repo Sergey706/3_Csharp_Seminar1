@@ -23,4 +23,14 @@ a=-9;b=-3 => max=-3, min=-9
 */
 
 //Задача 1
+using System.Runtime.InteropServices.Marshalling;
 
+int firstValue = 25;
+int secondValue = 25;
+
+if (firstValue > secondValue)
+{
+    System.Console.Write($"max={firstValue}, min={secondValue}");
+}
+else if (firstValue < secondValue) System.Console.Write($"max={secondValue}, min={firstValue}");
+    else System.Console.Write($"числа {firstValue} и {secondValue} равны");
