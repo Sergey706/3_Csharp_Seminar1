@@ -25,8 +25,10 @@ a=-9;b=-3 => max=-3, min=-9
 //Задача 1
 /*using System.Runtime.InteropServices.Marshalling;
 
-int firstValue = 25;
-int secondValue = 25;
+Console.Write("Введите первое число: ");
+int firstValue = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int secondValue = Convert.ToInt32(Console.ReadLine());
 
 if (firstValue > secondValue)
 {
@@ -37,9 +39,12 @@ else if (firstValue < secondValue) System.Console.Write($"max={secondValue}, min
 
 //Задача 2
 /*
-int firstValue = 25;
-int secondValue = 15;
-int thirdValue = 35;
+Console.Write("Введите первое число: ");
+int firstValue = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int secondValue = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите третье число: ");
+int thirdValue = Convert.ToInt32(Console.ReadLine());
 
     if (firstValue >= secondValue && firstValue >= thirdValue)
     {
@@ -52,7 +57,8 @@ int thirdValue = 35;
     }*/
 
 //Задача 3
-/*int number = 24;
+/*Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
     if (number % 2 == 0)
     {
         System.Console.WriteLine($"четное");
