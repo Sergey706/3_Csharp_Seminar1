@@ -2,3 +2,4 @@
 //Console.WriteLine("Hello, World!");
 
 int number = 24;
+System.Console.Write($"{number}");
