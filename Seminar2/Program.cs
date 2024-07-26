@@ -11,6 +11,7 @@ if (a % 7 == 0 && a % 23 == 0) System.Console.WriteLine("=> да");
 else System.Console.WriteLine("=> нет");*/
 
 //Задача 2
+/*
 Console.Write("Введите число для координаты х: ");
 int x = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число для координаты У: ");
@@ -23,5 +24,18 @@ if (x != 0 && y != 0)
     if (x<0 && y<0) System.Console.WriteLine("=> 3");
     if (x>0 && y<0) System.Console.WriteLine("=> 4");
 }
-else System.Console.WriteLine("Введите координаты отличные от нуля");
+else System.Console.WriteLine("Введите координаты отличные от нуля");*/
 
+//Задача 4
+Console.Write("Введите целое число из отреезка 10-99: ");
+int x = Convert.ToInt32(Console.ReadLine());
+
+if (x < 10 || x > 99) 
+{
+    System.Console.WriteLine("Число не в отреезке 10-99");
+}
+else 
+{
+    if (x / 10 > x % 10) System.Console.WriteLine($"=> {x/10}");
+    else System.Console.WriteLine($"=> {x%10}");
+}
