@@ -26,7 +26,8 @@ if (x != 0 && y != 0)
 }
 else System.Console.WriteLine("Введите координаты отличные от нуля");*/
 
-//Задача 4
+//Задача 3
+/*
 Console.Write("Введите целое число из отреезка 10-99: ");
 int x = Convert.ToInt32(Console.ReadLine());
 
@@ -38,4 +39,24 @@ else
 {
     if (x / 10 > x % 10) System.Console.WriteLine($"=> {x/10}");
     else System.Console.WriteLine($"=> {x%10}");
+}*/
+
+//Задача 4
+
+Console.Write("Введите натуральное число N < 999999999: ");
+int x = Convert.ToInt32(Console.ReadLine());
+
+if (x <= 0 || x > 999999999)
+{
+    System.Console.WriteLine("Вы ввели не корректное число");
+}
+else
+{
+    System.Console.Write("=> ");
+    while (x > 0)
+    {
+        System.Console.Write($"{x % 10}");
+        x = x / 10;
+        if (x != 0) System.Console.Write(", ");
+    }
 }
