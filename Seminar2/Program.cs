@@ -4,8 +4,24 @@
 Задача 4: Напишите программу, которая на вход принимает натуральное число N, а на выходе показывает его цифры через запятую.*/
 //System.Console.Write($"{number}");
 // Задача 1
-
+/*
 Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 if (a % 7 == 0 && a % 23 == 0) System.Console.WriteLine("=> да");
-else System.Console.WriteLine("=> нет");
+else System.Console.WriteLine("=> нет");*/
+
+//Задача 2
+Console.Write("Введите число для координаты х: ");
+int x = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число для координаты У: ");
+int y = Convert.ToInt32(Console.ReadLine());
+
+if (x != 0 && y != 0) 
+{
+    if (x>0 && y>0) System.Console.WriteLine("=> 1");
+    if (x<0 && y>0) System.Console.WriteLine("=> 2");
+    if (x<0 && y<0) System.Console.WriteLine("=> 3");
+    if (x>0 && y<0) System.Console.WriteLine("=> 4");
+}
+else System.Console.WriteLine("Введите координаты отличные от нуля");
+
