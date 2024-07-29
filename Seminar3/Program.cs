@@ -35,7 +35,7 @@ for (int i = 0; i < arr1.Length; i++)
 System.Console.WriteLine($"] => {count}");
 */
 //Задача №3
-
+/*
 double[] arr1 = {12.4, 3.3, 56.0, 4.3, 45.8, 23.6, 3.5, 99.2, 88.1, 78.6};
 
 double max = arr1[0];
@@ -49,4 +49,39 @@ for (int i = 0; i < arr1.Length; i++)
     if (i < arr1.Length-1) System.Console.Write("; ");
 }
 System.Console.WriteLine($"] => {max-min}");
+*/
+//Задача №4
+//Дано натуральное число в диапазоне от 1 до 100 000. Создайте массив, состоящий из цифр этого числа. Старший разряд
+//числа должен располагаться на 0-м индексе массива, младший – на последнем. Размер массива должен быть равен количеству цифр.
+Console.Write("Введите натуральное число от 1 до 100 000: ");
+int Value = Convert.ToInt32(Console.ReadLine());
+int count = 0;
+int temp = Value;
+int n = 0;
+while (temp > 0)
+{
+    temp = temp / 10;
+    n++;
+}
+int[] arr1 = new int[n];
+int[] arr2 = new int[n];
 
+if (Value > 0 && Value < 9999999999999)
+{
+    System.Console.Write($"{Value} => [");
+    while (Value > 0)
+    {
+        arr1[count] = Value % 10;
+        Value = Value / 10;
+        arr2[arr2.Length - count - 1] = arr1[count];
+        //System.Console.Write($"{arr1[count]}");
+        count++;
+        //if (Value != 0) System.Console.Write(", ");
+    }
+    for (int i=0; i < arr2.Length; i++) 
+        {System.Console.Write($"{arr2[i]}"); 
+        if (i < arr2.Length-1) System.Console.Write(", ");
+    }
+    System.Console.WriteLine($"]");
+}
+else System.Console.WriteLine("Число вне указанного диапазона");
