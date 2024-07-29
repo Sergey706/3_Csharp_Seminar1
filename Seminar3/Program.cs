@@ -74,9 +74,7 @@ if (Value > 0 && Value < 9999999999999)
         arr1[count] = Value % 10;
         Value = Value / 10;
         arr2[arr2.Length - count - 1] = arr1[count];
-        //System.Console.Write($"{arr1[count]}");
         count++;
-        //if (Value != 0) System.Console.Write(", ");
     }
     for (int i=0; i < arr2.Length; i++) 
         {System.Console.Write($"{arr2[i]}"); 
