@@ -21,7 +21,7 @@ for (int i = 0; i < arr1.Length; i++)
 System.Console.WriteLine($"] => {count}");
 */
 //Задача №2
-
+/*
 int[] arr1 = {12, 3, 56, 4, 45, 23, 3, 99, 88, 78};
 
 int count = 0;
@@ -33,5 +33,20 @@ for (int i = 0; i < arr1.Length; i++)
     if (i < arr1.Length-1) System.Console.Write(", ");
 }
 System.Console.WriteLine($"] => {count}");
+*/
+//Задача №3
 
+double[] arr1 = {12.4, 3.3, 56.0, 4.3, 45.8, 23.6, 3.5, 99.2, 88.1, 78.6};
+
+double max = arr1[0];
+double min = arr1[0];
+System.Console.Write("массив [");
+for (int i = 0; i < arr1.Length; i++)
+{
+    if (arr1[i] > max) max=arr1[i];
+    if (arr1[i] < min) min=arr1[i];
+    System.Console.Write($"{arr1[i]}");
+    if (i < arr1.Length-1) System.Console.Write("; ");
+}
+System.Console.WriteLine($"] => {max-min}");
 
