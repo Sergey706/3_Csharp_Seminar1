@@ -7,6 +7,7 @@
 */
 
 //Задача №1
+/*
 int[] arr1 = {12, 3, 56, 4, 45, 23, 3, 99, 88, 78};
 
 int count = 0;
@@ -18,3 +19,19 @@ for (int i = 0; i < arr1.Length; i++)
     if (i < arr1.Length-1) System.Console.Write(", ");
 }
 System.Console.WriteLine($"] => {count}");
+*/
+//Задача №2
+
+int[] arr1 = {12, 3, 56, 4, 45, 23, 3, 99, 88, 78};
+
+int count = 0;
+System.Console.Write("массив [");
+for (int i = 0; i < arr1.Length; i++)
+{
+    if (arr1[i] % 2 == 0) count++;
+    System.Console.Write($"{arr1[i]}");
+    if (i < arr1.Length-1) System.Console.Write(", ");
+}
+System.Console.WriteLine($"] => {count}");
+
+
