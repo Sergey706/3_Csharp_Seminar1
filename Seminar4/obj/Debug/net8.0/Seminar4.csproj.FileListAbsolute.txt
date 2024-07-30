@@ -1,0 +1,15 @@
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.AssemblyInfoInputs.cache
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.AssemblyInfo.cs
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.csproj.CoreCompileInputs.cache
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.sourcelink.json
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\bin\Debug\net8.0\Seminar4.exe
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\bin\Debug\net8.0\Seminar4.deps.json
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\bin\Debug\net8.0\Seminar4.runtimeconfig.json
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\bin\Debug\net8.0\Seminar4.dll
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\bin\Debug\net8.0\Seminar4.pdb
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.dll
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\refint\Seminar4.dll
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.pdb
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\Seminar4.genruntimeconfig.cache
+C:\GB\3 C_sharp\Практика\Семинары\Seminar4\obj\Debug\net8.0\ref\Seminar4.dll
