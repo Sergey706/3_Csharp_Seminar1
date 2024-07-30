@@ -13,8 +13,8 @@ bool GoToFinish(string a)
 {
     if (Equals (a, "q")) return true;
     else{
-        if (Chetno(a)) {return true;}
-        else {return false;}
+        if (Chetno(a)) return true;
+        else return false;
         }
 }
 
