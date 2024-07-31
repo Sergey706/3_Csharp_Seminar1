@@ -59,7 +59,7 @@ AsckMessage(a);
 */
 
 //Задача №2
-using System.Runtime.InteropServices;
+/*using System.Runtime.InteropServices;
 
 void PrintMessage()
 {
@@ -95,3 +95,5 @@ int[] FillArray(int Value)
 PrintMessage();
 int Value = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine($" => {GetValueChetno(FillArray(Value))}");
+*/
+//Задача №3
