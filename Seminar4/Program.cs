@@ -3,7 +3,7 @@
 // Задача 2: Задайте массив заполненный случайными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
 // Задача 3: Напишите программу, которая перевернёт одномерный массив (первый элемент станет последним, второй – предпоследним и т.д.)
 //Задача №1
-
+/*
 void PrintMessage()
 {
     System.Console.Write("Введите целое число: ");
@@ -56,3 +56,42 @@ void AsckMessage(string Value)
     System.Console.WriteLine(" [STOP]");
 }
 AsckMessage(a);
+*/
+
+//Задача №2
+using System.Runtime.InteropServices;
+
+void PrintMessage()
+{
+    System.Console.Write("Введите размерность массива как целое число: ");
+}
+int GetValueChetno(int[] arr)
+{
+    int val = 0;
+    foreach (int e in arr)
+    {
+        if (e % 2 == 0) val++;
+    }
+    return val;
+}
+int[] FillArray(int Value)
+{
+    int i = 0;
+    int[] arr = new int[Value];
+    Random rnd = new Random();
+    while (i < Value)
+    {
+        arr[i] = rnd.Next(100, 999);
+        i++;
+    }
+    i = 0;
+    while (i < Value)
+    {
+        System.Console.Write($"{arr[i]} ");
+        i++;
+    }
+    return arr;
+}
+PrintMessage();
+int Value = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine($" => {GetValueChetno(FillArray(Value))}");
