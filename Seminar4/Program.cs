@@ -127,10 +127,10 @@ int[] ConvertArray(int[] arr)
 void PrintArray(int[] arr)
 {
     System.Console.Write("[");
-    for(int i=0; i<arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
         System.Console.Write($"{arr[i]}");
-        if (i < arr.Length-1) System.Console.Write(", ");
+        if (i < arr.Length - 1) System.Console.Write(", ");
     }
     System.Console.Write($"]");
 }
