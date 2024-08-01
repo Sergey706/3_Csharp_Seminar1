@@ -97,3 +97,47 @@ int Value = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine($" => {GetValueChetno(FillArray(Value))}");
 */
 //Задача №3
+void PrintMessage()
+{
+    System.Console.Write("Введите размерность массива как целое число: ");
+}
+int[] FillArray(int Value)
+{
+    int i = 0;
+    int[] arr = new int[Value];
+    Random rnd = new Random();
+    while (i < Value)
+    {
+        arr[i] = rnd.Next(10, 99);
+        i++;
+    }
+    return arr;
+}
+int[] ConvertArray(int[] arr)
+{
+    int temp = 0;
+    for (int i = 0; i < arr.Length / 2; i++)
+    {
+        temp = arr[i];
+        arr[i] = arr[arr.Length - i - 1];
+        arr[arr.Length - i - 1] = temp;
+    }
+    return arr;
+}
+void PrintArray(int[] arr)
+{
+    System.Console.Write("[");
+    for(int i=0; i<arr.Length; i++)
+    {
+        System.Console.Write($"{arr[i]}");
+        if (i < arr.Length-1) System.Console.Write(", ");
+    }
+    System.Console.Write($"]");
+}
+PrintMessage();
+int Value = Convert.ToInt32(Console.ReadLine());
+int[] a = FillArray(Value);
+PrintArray(a);
+System.Console.Write(" => ");
+PrintArray(ConvertArray(a));
+
