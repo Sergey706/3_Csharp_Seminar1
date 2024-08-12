@@ -30,6 +30,7 @@ void ShowMatrix(int[,] matr)
         Console.WriteLine();
     }
 }
+/*
 void Main()
 {
     System.Console.Write("Введите размерность массива через пробел: ");
@@ -45,5 +46,33 @@ void Main()
     Console.Write($"({x1}, {x2}) => ");
     if (x1 >= y1 || x2 >= y2) System.Console.WriteLine("Такого элемента нет");
     else System.Console.WriteLine($"{matrix[x1,x2]}");
-}
+}*/
 Main();
+
+//Задача №2
+void Main()
+{
+    System.Console.Write("Введите размерность массива через пробел: ");
+    var lst0 = Console.ReadLine()?.Split().Select(int.Parse).ToList();
+    int y1 = lst0[0];
+    int y2 = lst0[1];
+    int[,] matrix = FillMatrix(y1, y2);
+    ShowMatrix(matrix);
+    System.Console.WriteLine("=>");
+    ChangeMatrix(matrix);
+    ShowMatrix(matrix);
+}
+
+int[,] ChangeMatrix(int[,] matr)
+{
+    int temp = 0;
+    for (int i = 0; i < matr.GetLength(1); i++)
+    {
+        temp = matr[0,i];
+        matr[0, i] = matr[matr.GetLength(0) - 1,  i];
+        matr[matr.GetLength(0) - 1, i] = temp;
+    }
+    return matr;
+}
+
+//Задача №3

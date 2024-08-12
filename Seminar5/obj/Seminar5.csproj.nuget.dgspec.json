@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GB\\3 C_sharp\\Практика\\Семинары\\Seminar5\\Seminar5.csproj": {}
+    "C:\\GB\\3 C_sharp\\Практика\\Семинары\\seminar5\\Seminar5.csproj": {}
   },
   "projects": {
-    "C:\\GB\\3 C_sharp\\Практика\\Семинары\\Seminar5\\Seminar5.csproj": {
+    "C:\\GB\\3 C_sharp\\Практика\\Семинары\\seminar5\\Seminar5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GB\\3 C_sharp\\Практика\\Семинары\\Seminar5\\Seminar5.csproj",
+        "projectUniqueName": "C:\\GB\\3 C_sharp\\Практика\\Семинары\\seminar5\\Seminar5.csproj",
         "projectName": "Seminar5",
-        "projectPath": "C:\\GB\\3 C_sharp\\Практика\\Семинары\\Seminar5\\Seminar5.csproj",
+        "projectPath": "C:\\GB\\3 C_sharp\\Практика\\Семинары\\seminar5\\Seminar5.csproj",
         "packagesPath": "C:\\Users\\OgurtsovSe\\.nuget\\packages\\",
-        "outputPath": "C:\\GB\\3 C_sharp\\Практика\\Семинары\\Seminar5\\obj\\",
+        "outputPath": "C:\\GB\\3 C_sharp\\Практика\\Семинары\\seminar5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OgurtsovSe\\AppData\\Roaming\\NuGet\\NuGet.Config"
