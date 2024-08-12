@@ -5,6 +5,8 @@
 // Задача 4*(не обязательная): Задайте двумерный массив из целых чисел. Напишите программу, которая удалит строку и столбец, на пересечении которых расположен
 // наименьший элемент массива. Под удалением понимается создание нового двумерного массива без строки и столбца.
 //Задача №1
+using System.Security.Cryptography.X509Certificates;
+
 int[,] FillMatrix(int row, int col)
 {
     int[,] matrix = new int[row, col];
@@ -50,6 +52,7 @@ void Main()
 Main();
 
 //Задача №2
+/*
 void Main()
 {
     System.Console.Write("Введите размерность массива через пробел: ");
@@ -73,6 +76,39 @@ int[,] ChangeMatrix(int[,] matr)
         matr[matr.GetLength(0) - 1, i] = temp;
     }
     return matr;
-}
+}*/
 
 //Задача №3
+void Main()
+{
+    System.Console.Write("Введите размерность прямоугольного массива через пробел: ");
+    var lst0 = Console.ReadLine()?.Split().Select(int.Parse).ToList();
+    int y1 = lst0[0];
+    int y2 = lst0[1];
+    int[,] matrix = FillMatrix(y1, y2);
+    ShowMatrix(matrix);
+    System.Console.Write($"=> Строка с индексом {MinSum(matrix)}");
+    //ChangeMatrix(matrix);
+    //ShowMatrix(matrix);
+}
+
+int MinSum(int[,] matr)
+{
+    int x = 999999999;
+    int sum = 0;
+    int indx = 0;
+    for (int i = 0; i < matr.GetLength(0); i++)
+    {
+        for (int j = 0; j < matr.GetLength(1); j++)
+        {
+            sum = sum + matr[i, j];
+        }
+        if (x > sum)
+        {
+            x = sum;
+            indx = i;
+        }
+        sum = 0;
+    }
+    return indx;
+}
