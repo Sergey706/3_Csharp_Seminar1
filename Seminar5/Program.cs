@@ -79,7 +79,7 @@ int[,] ChangeMatrix(int[,] matr)
 }*/
 
 //Задача №3
-void Main()
+/*void Main()
 {
     System.Console.Write("Введите размерность прямоугольного массива через пробел: ");
     var lst0 = Console.ReadLine()?.Split().Select(int.Parse).ToList();
@@ -88,8 +88,6 @@ void Main()
     int[,] matrix = FillMatrix(y1, y2);
     ShowMatrix(matrix);
     System.Console.Write($"=> Строка с индексом {MinSum(matrix)}");
-    //ChangeMatrix(matrix);
-    //ShowMatrix(matrix);
 }
 
 int MinSum(int[,] matr)
@@ -111,4 +109,59 @@ int MinSum(int[,] matr)
         sum = 0;
     }
     return indx;
+}*/
+//Задача №4
+void Main()
+{
+    System.Console.Write("Введите размерность прямоугольного массива через пробел: ");
+    var lst0 = Console.ReadLine()?.Split().Select(int.Parse).ToList();
+    int y1 = lst0[0];
+    int y2 = lst0[1];
+    int[,] matrix = FillMatrix(y1, y2);
+    ShowMatrix(matrix);
+    System.Console.WriteLine($"=> Минимальный элемент {MinElem(matrix)}");
+    ShowMatrix(FillMatrix1(matrix, MinElem(matrix)));
+    //ShowMatrix(matrix1);
+}
+
+int MinElem(int[,] matr)
+{
+    int x = 999999999;
+    foreach (int e in matr) if (x > e) x = e;
+    return x;
+}
+
+int[,] FillMatrix1(int[,] matrix, int el)
+{
+    int[,] matrix1 = new int[matrix.GetLength(0) - 1, matrix.GetLength(1) - 1];
+    int x = 0; int y = 0; int a = 0; int b = 0; 
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            if (matrix[i, j] == el)
+            {
+                x = i; y = j;
+                break;
+            }
+        }
+        if (x != 0 || y != 0) break;
+    }
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        if (i != x)
+        {
+            for (int j = 0; j < matrix.GetLength(1); j++)
+            {
+                if (j != y)
+                {
+                    matrix1[a, b] = matrix[i, j];
+                    b++;
+                }
+            }
+            a++;
+            b = 0;
+        }
+    }
+    return matrix1;
 }
