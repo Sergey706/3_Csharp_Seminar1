@@ -1,0 +1,15 @@
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\bin\Debug\net8.0\seminar6.exe
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\bin\Debug\net8.0\seminar6.deps.json
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\bin\Debug\net8.0\seminar6.runtimeconfig.json
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\bin\Debug\net8.0\seminar6.dll
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\bin\Debug\net8.0\seminar6.pdb
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.GeneratedMSBuildEditorConfig.editorconfig
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.AssemblyInfoInputs.cache
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.AssemblyInfo.cs
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.csproj.CoreCompileInputs.cache
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.sourcelink.json
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.dll
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\refint\seminar6.dll
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.pdb
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\seminar6.genruntimeconfig.cache
+C:\GB\3 C_sharp\Практика\Семинары\seminar6\obj\Debug\net8.0\ref\seminar6.dll
