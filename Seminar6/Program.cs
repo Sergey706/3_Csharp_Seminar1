@@ -11,7 +11,7 @@ class Program
         {
             for (int j = 0; j < matrix.GetLength(1); j++)
             {
-                matrix[i, j] = rnd.Next(1, 10);
+                matrix[i, j] = rnd.Next(-9, 10);
             }
         }
         return matrix;
@@ -63,7 +63,7 @@ class Program
             sum = 0;
         }
     }*/
-    static void TransposeMatrix(int[,] array)
+    /*static void TransposeMatrix(int[,] array)
     {
         int rows = array.GetLength(0);
         int cols = array.GetLength(1);
@@ -77,6 +77,22 @@ class Program
             }
         }
         ShowMatrix(transposed);
+    }*/
+    static void ReplaceNegativeNumbers(int[,] array)
+    {
+        int rows = array.GetLength(0);
+        int cols = array.GetLength(1);
+        // Введите свое решение ниже
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
+                if (array[i, j] < 0){
+                    array[i, j] = Math.Abs(array[i, j]);
+                }
+            }
+        }
+        ShowMatrix(array);
     }
     static void Main()
     {
@@ -89,7 +105,8 @@ class Program
         System.Console.WriteLine();
         //FindMaxInRows(matrix);
         //FindSumInColumns(matrix);
-        TransposeMatrix(matrix);
+        //TransposeMatrix(matrix);
+        ReplaceNegativeNumbers(matrix);
     }
 }
 
