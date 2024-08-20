@@ -47,7 +47,7 @@ class Program
             max = 0;
         }
     }*/
-    static void FindSumInColumns(int[,] array)
+    /*static void FindSumInColumns(int[,] array)
     {
         int rows = array.GetLength(0);
         int cols = array.GetLength(1);
@@ -62,6 +62,21 @@ class Program
             System.Console.WriteLine($"Сумма элементов в столбце {i}: {sum}");
             sum = 0;
         }
+    }*/
+    static void TransposeMatrix(int[,] array)
+    {
+        int rows = array.GetLength(0);
+        int cols = array.GetLength(1);
+        int[,] transposed = new int[cols, rows];
+        // Введите свое решение ниже
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < cols; j++)
+            {
+                transposed[j, i] = array[i, j];
+            }
+        }
+        ShowMatrix(transposed);
     }
     static void Main()
     {
@@ -73,7 +88,8 @@ class Program
         ShowMatrix(matrix);
         System.Console.WriteLine();
         //FindMaxInRows(matrix);
-        FindSumInColumns(matrix);
+        //FindSumInColumns(matrix);
+        TransposeMatrix(matrix);
     }
 }
 
