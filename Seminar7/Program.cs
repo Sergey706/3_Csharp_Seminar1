@@ -35,11 +35,7 @@ internal class Program
             {
                 return Ackkerman(m - 1, 1);
             }
-            else if ((m > 0) && (n > 0))
-            {
-                return Ackkerman(m - 1, Ackkerman(m, n - 1));
-            }
-            return 0;
+            return Ackkerman(m - 1, Ackkerman(m, n - 1));
         }
         Console.Write(Ackkerman(y1, y2));
     }
