@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Seminar7
-build_property.ProjectDir = c:\GB\3 C_sharp\Практика\Семинары\Seminar7\
+build_property.ProjectDir = C:\GB\3 C_sharp\Практика\Семинары\Seminar7\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
